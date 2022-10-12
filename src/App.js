@@ -6,12 +6,14 @@ import Quiz from './Components/Quiz/Quiz';
 import Statistics from './Components/Statistics/Statistics'
 import Blog from './Components/Blog/Blog'
 import StartQuiz from './Components/StartQuiz/StartQuiz';
+import ErrorPage from './Components/ErrorPage/ErrorPage';
 
 function App() {
   const router =createBrowserRouter([
     {
       path:'/',
       element:<Main></Main>,
+      errorElement: <ErrorPage></ErrorPage>,
       children:[
         {
           path:'/',
