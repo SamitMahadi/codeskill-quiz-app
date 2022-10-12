@@ -23,7 +23,7 @@ const QuizAnswers = ({question,correctAnswer,option}) => {
             <div>
                 {
                     options.map(option =>
-                  <p  onClick={notify} option= {option}  className='border-3 border-pink-500 p-3 hover:bg-pink-500 text-center text-white'> <input type="radio" name="Radio1" />{option}  <ToastContainer></ToastContainer></p>
+                  <p  onClick={notify} option= {option}  className='border-3 border-pink-500 p-3 hover:bg-pink-500 text-center text-white'> <input type="radio" name="Radio1" />{option} <ToastContainer/></p>
      
 
 
